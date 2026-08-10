@@ -1,0 +1,40 @@
+GAME LAUNCHER v1
+
+[Game List]
+ปุ่มกดเข้ารายการเกม
+
+[Edit Game]
+เลือกไฟล์
+1.ตั้งชื่อ
+อัพโหลด
+2.ลบไฟล์ที่เอาเข้าออกจากรายการ
+
+[Save]
+เซฟข้อมูลลงไฟล์
+
+[Play]
+เปิดไฟล์ .exe
+
+[เปิดโปรแกรม]
+โหลดข้อมูลที่อยู่ในไฟล์
+
+PART 1
+เขียนฟังชั่นหลักๆที่ได้ใช้	
+-edit game
+-save
+-load
+-play
+
+PART 2
+ทำ ui
+-Game list
+-edit button
+-save button
+play-button
+...
+
+PART 3
+เชื่อม ui กับฟังชั่น
+
+PART 4
+เก็บงาน
