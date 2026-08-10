@@ -2,6 +2,7 @@ import json
 import os
 import customtkinter as ctk
 from customtkinter import filedialog
+import sys
 
 data = []
 
@@ -109,6 +110,14 @@ data = load_data()
 window = ctk.CTk()
 window.geometry("700x500")
 window.configure(fg_color="#cd9c8e")
+window.title("Game Launcher")
+
+if getattr(sys, "frozen", False):
+    icon_path = os.path.join(sys._MEIPASS, "folderyellowgames.ico")
+else:
+    icon_path = os.path.join(os.path.dirname(__file__), "folderyellowgames.ico")
+
+window.iconbitmap(icon_path)
 
 # leftFrame
 
